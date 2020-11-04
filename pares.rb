@@ -5,7 +5,9 @@ if var<0
 else
     suma=0
     var.times do |i|
-    suma=suma+i+1
+        if (i+1).even?
+            suma=suma+i+1
+        end
     end
 end
 
